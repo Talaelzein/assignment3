@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <main class="todo-app">
+            <h1>My To-Do List</h1>
+            <p class="subtitle">Stay organized and keep track of your tasks.</p>
+
+            <form id="task-form">
+
+                <label for="task-input">New Task</label>
+                
+                <input type="text"
+                       id="task-input"
+                       placeholder="Enter a task"
+                >
+                <button type="submit">Add Task</button>
+                
+                <p id="feedback"></p>
+            </form>
+
+            <h2>Tasks</h2>
+
+            <p id="task-count">0 tasks</p>
+
+            <ul id="task-list"></ul>
+        </main>
+            
+        <script src="script.js"></script>
+    </body>
+</html>
